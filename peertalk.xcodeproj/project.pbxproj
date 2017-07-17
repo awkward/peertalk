@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004A1F3A1EE6B136001F0822 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 004A1F391EE6B0CC001F0822 /* Default-568h@2x.png */; };
 		5E2C5024171F46A6008A9752 /* PTPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2C5023171F46A6008A9752 /* PTPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E341527411E001B90E4 /* Default@2x.png */; };
 		6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2E8E361527451D001B90E4 /* Icon-144@2x.png */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004A1F391EE6B0CC001F0822 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E2C5023171F46A6008A9752 /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
 		6A0A056E150DB1C10014D424 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A2E8E341527411E001B90E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		6A88FA25150D613800FC3647 = {
 			isa = PBXGroup;
 			children = (
+				004A1F391EE6B0CC001F0822 /* Default-568h@2x.png */,
 				6A88FA39150D613800FC3647 /* peertalk */,
 				6A88FA4B150D613800FC3647 /* tests */,
 				6A64AAC9152604D40065BF86 /* Peertalk Example */,
@@ -478,7 +481,7 @@
 		6A88FA27150D613800FC3647 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					EE158A5A1CBD3EB600A3E3F0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -531,6 +534,7 @@
 				6A64AAFA1526050D0065BF86 /* MainStoryboard_iPad.storyboard in Resources */,
 				6A2E8E351527411E001B90E4 /* Default@2x.png in Resources */,
 				6A2E8E371527451D001B90E4 /* Icon-144@2x.png in Resources */,
+				004A1F3A1EE6B136001F0822 /* Default-568h@2x.png in Resources */,
 				6A2E8E39152745EF001B90E4 /* Icon-72.png in Resources */,
 				6A2E8E3B1527467E001B90E4 /* Icon-114@2x.png in Resources */,
 			);
@@ -772,12 +776,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -812,12 +822,18 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
